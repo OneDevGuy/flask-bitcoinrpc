@@ -47,6 +47,7 @@ Example 2
         rpc.init_app(app)
 
 Then in your blueprint.
+
 .. code:: python
 
     from yourapp import wallet
