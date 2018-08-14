@@ -31,7 +31,7 @@ class Walletrpc(object):
         """Set up this instance for use with *app*, if no app was passed to
         the constructor.
         """
-        
+
         self.app = app
         app.wallet_instance = self
         if not hasattr(app, 'extensions'):
@@ -44,7 +44,7 @@ class Walletrpc(object):
         app.context_processor(_wallet_context_processor)
         app.teardown_appcontext(self.teardown)
 
-     def teardown(self, exception):
+    def teardown(self, exception):
         ctx = _request_ctx_stack.top
         if hasattr(ctx, 'extensions'):
             ctx.extensions.close()
