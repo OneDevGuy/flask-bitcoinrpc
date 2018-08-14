@@ -9,7 +9,7 @@ from setuptools import setup
 
 setup(
     name='Flask-Wallet-RPC',
-    version='0.1.2',
+    version='0.1.3',
     url='https://github.com/OneDevGuy/flask-bitcoinrpc',
     license='BSD',
     author='Trevor Johnson',
