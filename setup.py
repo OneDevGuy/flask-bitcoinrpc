@@ -15,6 +15,7 @@ setup(
     author='Trevor Johnson',
     author_email="devtrev@protonmail.com",
     description='Crypto Wallet RPC client for Flask, based on the Python module slick-bitcoinrpc',
+    long_description=open('README.md').read(),
     packages=['flask_wallet_rpc'],
     zip_safe=False,
     platforms='any',
