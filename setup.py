@@ -1,20 +1,21 @@
 """
-Flask-Bitcoinrpc
+Flask-Wallet-RPC
 -------------
 
-Bitcoin RPC client for Flask
+Crypto Wallet RPC client for Flask
 """
 from setuptools import setup
 
 
 setup(
-    name='Flask-Bitcoinrpc',
-    version='0.1',
+    name='Flask-Wallet-RPC',
+    version='0.1.1',
     url='https://github.com/OneDevGuy/flask-bitcoinrpc',
     license='BSD',
     author='Trevor Johnson',
-    description='Bitcoin RPC client for Flask, based on the Python module slick-bitcoinrpc',
-    packages=['flask-bitcoinrpc'],
+    author_email="devtrev@protonmail.com",
+    description='Crypto Wallet RPC client for Flask, based on the Python module slick-bitcoinrpc',
+    packages=['flask_wallet_rpc'],
     zip_safe=False,
     platforms='any',
     install_requires=[
