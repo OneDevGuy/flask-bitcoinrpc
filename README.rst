@@ -19,8 +19,8 @@ or alternatively if you have pip installed::
     $ pip install Flask-Wallet-RPC
 
 
-Example
-=======
+Example 1
+=========
 .. code:: python
 
     from flask import Flask
@@ -34,7 +34,8 @@ Example
     def main():
         return wallet.getwalletinfo()
 
-
+Example 2
+=========
 .. code:: python
 
     from flask import Flask
@@ -45,7 +46,7 @@ Example
     def create_app('the-config.cfg'):
         rpc.init_app(app)
 
-Then in your views Blueprint::
+Then in your blueprint.
 .. code:: python
 
     from yourapp import wallet
@@ -53,7 +54,6 @@ Then in your views Blueprint::
 
     @bp.route('/')
     def index():
-
         return wallet.getwalletinfo()
 
 
