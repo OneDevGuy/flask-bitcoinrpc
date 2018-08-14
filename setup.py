@@ -9,13 +9,13 @@ from setuptools import setup
 
 setup(
     name='Flask-Wallet-RPC',
-    version='0.1.1',
+    version='0.1.2',
     url='https://github.com/OneDevGuy/flask-bitcoinrpc',
     license='BSD',
     author='Trevor Johnson',
     author_email="devtrev@protonmail.com",
     description='Crypto Wallet RPC client for Flask, based on the Python module slick-bitcoinrpc',
-    long_description=open('README.md').read(),
+    long_description=open('README.rst').read(),
     packages=['flask_wallet_rpc'],
     zip_safe=False,
     platforms='any',
